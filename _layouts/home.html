@@ -35,6 +35,7 @@
             {% if site.home.section2 %}{{ site.home.section2 }}{% endif %}
             {% if site.home.section3 %}{{ site.home.section3 }}{% endif %}
             <img itemprop="image" src="/assets/images/IMG37.png"/>
+
         </div>
         <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
     </div>
@@ -44,21 +45,19 @@
             <a class="btn-enter btn-light" title="{{ site.data.i18n[site.lang].enter}}" href="{{ site.paths.blog | relative_url }}">{{ site.data.i18n[site.lang].enter_blog }}</a>
         </h1>
         <div class="social-links animated hidden">
-            <a class="btn-dark ico-gmail" href="mailto:{{ site.author.email }}" rel="me" target="_blank" title="email"></a>
+            <a class="btn-dark ico-rss" href="{{ site.baseurl }}/feed.xml" rel="me" target="_blank" title="feed"></a>
+            {% if site.author.email %}
+                <a class="btn-dark ico-gmail" href="mailto:{{ site.author.email }}" rel="me" target="_blank" title="email"></a>
             {% endif %}
-            {% endfor %}
             {% for link in site.author.social_links %}
                 {% if link.url %}
-            <a class="btn-dark ico-linkedin" href="{{https://www.linkedin.com/in/sophie-tran-452525bb}}" rel="me" target="_blank" title="{{linkedin}}"></a>
-            {% endif %}
+                <a class="btn-dark ico-linkedin" href="{{https://www.linkedin.com/in/sophie-tran-452525bb}}" rel="me" target="_blank" title="{{linkedin}}"></a>
+                <a class="btn-dark ico-twitter" href="{{https://twitter.com/sophiahntran}}" rel="me" target="_blank" title="{{twitter}}"></a>
+                <a class="btn-dark ico-linkedin" href="{{https://www.linkedin.com/in/sophie-tran-452525bb}}" rel="me" target="_blank" title="{{linkedin}}"></a>
+                {% endif %}
             {% endfor %}
-            <a class="btn-dark ico-twitter" href="{{https://twitter.com/sophiahntran}}" rel="me" target="_blank" title="{{twitter}}"></a>
-            {% endif %}
-            {% endfor %}
-            <a class="btn-dark ico-linkedin" href="{{https://www.linkedin.com/in/sophie-tran-452525bb}}" rel="me" target="_blank" title="{{linkedin}}"></a>
-            {% endif %}
-            {% endfor %}
-            
+
+           
         </div>
     </div>
 
