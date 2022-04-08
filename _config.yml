@@ -47,8 +47,8 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Simple Texture</h1>
-  section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
+  section1: <h1>Sophia Tran</h1>
+  section2: <h2>I am a first year PhD candidate at the Universitiy of Waterloo. I am currently studying how drawing enhances later recall of to-be-remembered items. I am also interested in how stimulus-driven factors modulates this drawing benefit</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
