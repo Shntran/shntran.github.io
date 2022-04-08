@@ -23,7 +23,7 @@ sass:
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
-title: Sophia Tran
+title: Sophia H N Tran
 description: "I am a first year PhD candidate at the Universitiy of Waterloo."
 keywords: 'memory, cognitive neuroscience, encoding techniques'
 author:
@@ -64,6 +64,6 @@ addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. r
 
 paths:
   home: /
-  CV: /CV/
+  blog: /blog/
   categories: /blog/categories/
   tags: /blog/tags/
