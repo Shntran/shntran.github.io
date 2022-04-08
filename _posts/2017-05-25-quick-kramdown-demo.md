@@ -2,7 +2,7 @@
 layout: post
 title: "Quick kramdown demo"
 description: "A quick demo post to some kramdown features."
-categories: [demo]
+CV: [demo]
 tags: [demo, jekyll]
 redirect_from:
   - /2017/05/25/
@@ -18,7 +18,7 @@ redirect_from:
 This is a normal paragraph.
 
 This is [a link](https://yizeng.me) to my homepage.
-A [link](https://yizeng.me/blog "Yi Zeng's Blog") can also have a title.
+A [link](https://yizeng.me/blog "Yi Zeng's Page") can also have a title.
 
 This is a ***text with light and strong emphasis***.
 
@@ -119,6 +119,7 @@ Here comes an image!
 
 <a class="post-image" href="https://kramdown.gettalong.org/overview.png">
 <img itemprop="image" data-src="https://kramdown.gettalong.org/overview.png" src="/assets/javascripts/unveil/loader.gif" alt="Kramdown Overview" />
+
 </a>
 
 [^1]: This is a footnote.

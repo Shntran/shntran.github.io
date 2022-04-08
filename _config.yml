@@ -2,7 +2,7 @@
 encoding: UTF-8
 exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
 lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
-permalink: /blog/:year/:month/:day/:title/
+permalink: /main/:year/:month/:day/:title/
 
 whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
 plugins:
@@ -22,12 +22,12 @@ sass:
 
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /main
 title: Sophia H N Tran
 description: "I am a first year PhD candidate at the Universitiy of Waterloo."
 keywords: 'memory, cognitive neuroscience, encoding techniques'
-author:
-  name: Sophia Tran
+author: 
+  name: 'Sophia Tran'
   job_title: PhD Student
   location: Waterloo, Ontario
   email: sophiahtran@uwaterloo.ca
@@ -52,7 +52,7 @@ home:
   section1: <h1>Sophia Tran</h1>
   section2: <h4>I am a first year PhD candidate at the Universitiy of Waterloo.</h4>
   section3: <h4>I study how drawing enhances later recall of to-be-remembered items, and how this can be modualted by stimulus-driven factors. </h4>
-blog:
+main:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
   footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
@@ -65,6 +65,6 @@ addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. r
 
 paths:
   home: /
-  blog: /blog/
-  categories: /blog/categories/
-  tags: /blog/tags/
+  main: /main/
+  CV: /main/CV/
+  tags: /main/tags/

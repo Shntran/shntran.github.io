@@ -1,4 +1,4 @@
-@import 'simple-texture/blog/variables';
+@import 'simple-texture/main/variables';
 @import 'simple-texture/common/normalize';
 @import 'simple-texture/common/animate';
 @import 'simple-texture/common/fonts';
@@ -7,7 +7,7 @@
 @import 'simple-texture/common/pace';
 
 html {
-    background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #F9F9F9;
+    background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #f3d4d4;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     padding: 12px 26px 26px 36px;
 
     border-top: 1px solid rgba(255, 255, 255, .6);
-    background: #FFFFFF;
+    background: #caf3fa;
     box-shadow: $color-box-border 0 0 9px;
 }
 
@@ -97,8 +97,8 @@ textarea {
     font-family: $fonts-body;
 }
 
-@import 'simple-texture/blog/overlay';
-@import 'simple-texture/blog/header';
-@import 'simple-texture/blog/footer';
-@import 'simple-texture/blog/content';
-@import 'simple-texture/blog/responsive';
+@import 'simple-texture/main/overlay';
+@import 'simple-texture/main/header';
+@import 'simple-texture/main/footer';
+@import 'simple-texture/main/content';
+@import 'simple-texture/main/responsive';

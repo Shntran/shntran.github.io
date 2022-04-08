@@ -9,17 +9,17 @@ which can also be forked as a boilerplate for older versions of Jekyll.
 
 - Starter-kit demo:
 <https://yizeng.github.io/jekyll-theme-simple-texture/>
-- My own personal blog: <https://yizeng.me/blog>
+- My own personal main: <https://yizeng.me/main>
 
 ![Screenshot - Home](assets/images/screenshots/homepage.png)
 
-![Screenshot - Blog](assets/images/screenshots/post.png)
+![Screenshot - main](assets/images/screenshots/post.png)
 
 ## Installation
 
 ### As a Jekyll theme gem (Jekyll >= 3.3)
 
-If you are creating a new website or blog,
+If you are creating a new website or main,
 please follow the commands below first:
 
 1. Install Jekyll and [Bundler][Bundler]

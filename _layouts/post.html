@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: main
 ---
 <article class="unit-article layout-post">
     <div class="unit-inner unit-article-inner">
@@ -24,9 +24,9 @@ layout: blog
                                     <span itemprop="name">{% if page.author == null %}{{ site.author.name }}{% else %}{{ page.author }}{% endif %}</span>
                                 </span>
                             </a>
-                            {% if site.blog.cc_license and site.blog.cc_license_image %}
-                                <a class="license-icon" rel="license" href="{{ site.blog.cc_license }}" target="_blank" title="{{ site.data.i18n[site.lang].show_license }}">
-                                    <img alt="Creative Commons Licence" style="border-width:0" src="{{ site.blog.cc_license_image | relative_url }}"  height="16" width="80"/>
+                            {% if site.main.cc_license and site.main.cc_license_image %}
+                                <a class="license-icon" rel="license" href="{{ site.main.cc_license }}" target="_blank" title="{{ site.data.i18n[site.lang].show_license }}">
+                                    <img alt="Creative Commons Licence" style="border-width:0" src="{{ site.main.cc_license_image | relative_url }}"  height="16" width="80"/>
                                 </a>
                             {% endif %}
                             {% if page.last_updated %}
@@ -35,8 +35,8 @@ layout: blog
                             {% endif %}
                         </p>
                         <ul class="list-category list-linear">
-                            <li class="list-head">{{ site.data.i18n[site.lang].categories }}: </li>
-                            {% assign categories_list = page.categories | sort %} {% include helpers/categories_list %}
+                            <li class="list-head">{{ site.data.i18n[site.lang].CV }}: </li>
+                            {% assign CV_list = page.CV | sort %} {% include helpers/CV_list %}
                         </ul>
                         <ul class="list-tag list-linear">
                             <li class="list-head">{{ site.data.i18n[site.lang].tags }}: </li>

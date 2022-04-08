@@ -21,3 +21,24 @@
     src: url('../fonts/ubuntu-c-webfont.eot');
     src: url('../fonts/ubuntu-c-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ubuntu-c-webfont.woff') format('woff'), url('../fonts/ubuntu-c-webfont.ttf') format('truetype'), url('../fonts/ubuntu-c-webfont.svg#ubuntu_condensedregular') format('svg');
 }
+
+@font-face {
+    font-family: 'TheFont';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/CormorantGaramond-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TheFontBlog';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Inconsolata-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HeaderBlog';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}

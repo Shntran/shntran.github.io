@@ -29,55 +29,67 @@ $size: 48;
     .ico-facebook {
         @include get-ico-image(facebook);
 
-        background-color: #3B5998;
+        background-color: #f2d2f5;
     }
 
     .ico-github {
         @include get-ico-image(github);
 
-        background-color: #181717;
+        background-color: #f2d2f5;
     }
 
     .ico-gmail {
         @include get-ico-image(gmail);
 
-        background-color: #D14836;
+        background-color: #f2d2f5;
     }
 
     .ico-instagram {
         @include get-ico-image(instagram);
 
-        background-color: #E4405F;
+        background-color: #f2d2f5;
     }
 
     .ico-linkedin {
         @include get-ico-image(linkedin);
 
-        background-color: #0077B5;
+        background-color: #f2d2f5;
     }
 
     .ico-rss {
         @include get-ico-image(rss);
 
-        background-color: #FFA500;
+        background-color: #f2d2f5;
     }
 
     .ico-stackoverflow {
         @include get-ico-image(stackoverflow);
 
-        background-color: #FE7A16;
+        background-color: #f2d2f5;
     }
 
     .ico-twitter {
         @include get-ico-image(twitter);
 
-        background-color: #1DA1F2;
+        background-color: #f2d2f5;
     }
 
     .ico-vk {
         @include get-ico-image(vk);
 
-        background-color: #6383A8;
+        background-color: #f2d2f5;
+    }
+
+    .ico-rg {
+        @include get-ico-image(rg);
+
+        background-color: #f2d2f5;
+    }
+
+    .ico-uw {
+        @include get-ico-image(uw);
+
+        background-color: #f2d2f5;
     }
 }
 
