@@ -73,10 +73,19 @@ $size: 48;
 
         background-color: #1DA1F2;
     }
+}
 
-    .ico-vk {
-        @include get-ico-image(vk);
 
-        background-color: #6383A8;
+$base-url: '../images/simple-icons/' !default;
+$size: 200;
+
+@mixin get-ico-image($name) {
+    background-image: url('#{$base-url}#{$name}-#{$size}.png');
+}
+
+.ico-vk {
+    @include get-ico-image(vk);
+
+    background-color: #6383A8;
     }
 }
