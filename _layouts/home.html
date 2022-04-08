@@ -48,17 +48,16 @@
             {% if site.author.email %}
                 <a class="btn-dark ico-gmail" href="mailto:{{ site.author.email }}" rel="me" target="_blank" title="email"></a>
             {% endif %}
-            {% for link in site.author.social_links %}
-                {% if link.url %}
+            {% if link.url %}
                 <a class="btn-dark ico-linkedin" href="https://www.linkedin.com/in/sophie-tran-452525bb" rel="me" target="_blank" title="{{linkedin}}"></a>
-                {% endif %}
-                {% if link.url %}
+            {% endif %}
+            {% if link.url %}
                 <a class="btn-dark ico-twitter" href="https://twitter.com/sophiahntran" rel="me" target="_blank" title="{{twitter}}"></a>
-                {% endif %}
-                {% if link.url %}
+            {% endif %}
+            {% if link.url %}
                 <a class="btn-dark ico-linkedin" href="https://www.linkedin.com/in/sophie-tran-452525bb" rel="me" target="_blank" title="{{linkedin}}"></a>
-                {% endif %}
-            {% endfor %}
+            {% endif %}
+        
 
            
         </div>
