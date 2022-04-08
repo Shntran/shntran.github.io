@@ -1,5 +1,5 @@
 $base-url: '../images/simple-icons/' !default;
-$size: 48;
+$size: 60;
 
 @mixin get-ico-image($name) {
     background-image: url('#{$base-url}#{$name}-#{$size}.png');
@@ -9,7 +9,7 @@ $size: 48;
     a {
         text-indent: -9999em;
 
-        opacity: .3;
+        opacity: .6;
         background-repeat: no-repeat;
         background-position: center center;
 
