@@ -46,10 +46,11 @@ author:
       url: 
     - name: vk
       url:
+
+DisplayPic: /assets/images/theme/IMAGE37.png
 home:
   section1: <h1>Sophia Tran</h1>
   section2: <h4>I am a first year PhD candidate at the Universitiy of Waterloo.</h4>
-  cc_license_image: /assets/images/theme/cc-by-sa.png
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
@@ -63,6 +64,6 @@ addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. r
 
 paths:
   home: /
-  blog: /blog/
+  CV: /CV/
   categories: /blog/categories/
   tags: /blog/tags/
