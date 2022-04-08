@@ -25,12 +25,12 @@ url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Sophia Tran
 description: "I am a first year PhD candidate at the Universitiy of Waterloo. I am currently studying how drawing enhances later recall of to-be-remembered items. I am also interested in how stimulus-driven factors modulates this drawing benefit."
-keywords: 'jekyll,theme,gem-based,blog'
+keywords: 'memory, cognitive neuroscience, encoding techniques'
 author:
-  name:
-  job_title:
-  location:
-  email:
+  name: Sophia Tran
+  job_title: PhD Student
+  location: Waterloo, Ontario
+  email: sophiahtran@uwaterloo.ca
   social_links:
     - name: facebook
       url:
