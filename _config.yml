@@ -47,10 +47,11 @@ author:
     - name: vk
       url:
 
-DisplayPic: /assets/images/theme/IMAGE37.png
+
 home:
   section1: <h1>Sophia Tran</h1>
   section2: <h4>I am a first year PhD candidate at the Universitiy of Waterloo.</h4>
+  <a class="/assets/images/theme/IMG37.png" href="tranhickey.ca">
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
