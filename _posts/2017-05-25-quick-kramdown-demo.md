@@ -3,7 +3,7 @@ layout: post
 title: "Quick kramdown demo"
 description: "A quick demo post to some kramdown features."
 CV: [demo]
-tags: [demo, jekyll]
+Dogs: [demo]
 redirect_from:
   - /2017/05/25/
 ---

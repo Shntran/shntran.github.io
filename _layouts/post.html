@@ -34,14 +34,6 @@ layout: main
                                 <time class="date-updated updated" title="{{ page.last_updated | date_to_xmlschema }}" datetime="{{ page.last_updated | date_to_xmlschema }}">{{ page.last_updated }}</time>)
                             {% endif %}
                         </p>
-                        <ul class="list-category list-linear">
-                            <li class="list-head">{{ site.data.i18n[site.lang].CV }}: </li>
-                            {% assign CV_list = page.CV | sort %} {% include helpers/CV_list %}
-                        </ul>
-                        <ul class="list-tag list-linear">
-                            <li class="list-head">{{ site.data.i18n[site.lang].tags }}: </li>
-                            {% assign tags_list = page.tags | sort %} {% include helpers/tags_list %}
-                        </ul>
                     </div>
                     <div itemprop="articleBody">
                         {{ content }}
