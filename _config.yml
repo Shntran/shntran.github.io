@@ -50,7 +50,7 @@ author:
 
 home:
   section1: <h1>Sophia Tran</h1>
-  section2: <p> -------------------- </p><h3><b><p>First year PhD candidate at uWaterloo in the Cognitive Neuroscience stream.</H3></p></b>
+  section2: <p> -------------------- </p><h4><b><p>First year PhD candidate at uWaterloo in the Cognitive Neuroscience stream.</h4></p></b>
   section3: <p>I am currently studying how drawing enhances later recall of to-be-remembered items, and how this can be modulated by stimulus-driven factors.</p><p> -------------------- </p
 main:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
