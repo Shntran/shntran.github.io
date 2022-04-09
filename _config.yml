@@ -52,8 +52,9 @@ author:
 
 home:
   section1: <h1>Sophia Tran</h1>
-  section2: <h4><div>I am a first year PhD candidate at the Universitiy of Waterloo.</div></h4>
-  section3: <h4>I study how drawing enhances later recall of to-be-remembered items, and how this can be modualted by stimulus-driven factors. </h4>
+  section2: <h4>I am a first year PhD candidate at the Universitiy of Waterloo.</h4>
+  section3: <h4>I study how drawing enhances later recall of to-be-remembered items, 
+  and how this can be modualted by stimulus-driven factors. </h4>
 main:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
