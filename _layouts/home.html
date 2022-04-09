@@ -35,7 +35,6 @@
             {% if site.home.section2 %}{{ site.home.section2 }}{% endif %}
             {% if site.home.section3 %}{{ site.home.section3 }}{% endif %}              
         </div>
-
         <html>
             <head>
                 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
@@ -45,9 +44,9 @@
             <body width = "device-width">
                 <img class="test"  src="/assets/images/IMG37.png">
             </body>
+        <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
     </div>
 
-    <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
     <div id="section1" class="section" data-name="social">
         <h1 class="animated hidden">
             <a class="btn-enter btn-light" title="{{ site.data.i18n[site.lang].enter}}" href="{{ site.paths.main | relative_url }}">{{ site.data.i18n[site.lang].enter}}</a>
