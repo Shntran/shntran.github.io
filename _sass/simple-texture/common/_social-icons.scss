@@ -91,5 +91,11 @@ $size: 48;
 
         background-color: #f2d2f5;
     }
+    
+    .ico-gs {
+        @include get-ico-image(gs);
+
+        background-color: #f2d2f5;
+    }
 }
 
