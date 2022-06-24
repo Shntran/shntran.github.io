@@ -24,7 +24,7 @@ sass:
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /main
 title: Sophia H. N. Tran
-description: "I am a first year PhD candidate at the Universitiy of Waterloo."
+description: "PhD student in the Cognitive Neuroscience stream at the University of Waterloo"
 keywords: 'memory, cognitive neuroscience, encoding techniques'
 author: 
   name: 'Sophia Tran'
@@ -52,7 +52,7 @@ home:
   section1: <h1>Sophia H. N. Tran</h1> <hr size="3" width="100%" color="DAF7A6">
   section2: <h4>PhD student in the Cognitive Neuroscience stream at the University of Waterloo.</h4> 
   <hr size="1" width="20%" color="grey">
-  section3: <h5>I am currently studying how drawing enhances later recall of to-be-remembered items, and how the drawing benefit can be modulated by stimulus-driven factors.</h5><hr size="3" width="100%" color="DAF7A6">
+  section3: <h5>I am currently studying how drawing enhances later recall of to-be-remembered items, and how the drawing benefit can be modulated by stimulus-driven factors.</h5> <hr size="3" width="100%" color="DAF7A6">
 main:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
