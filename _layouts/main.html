@@ -10,11 +10,11 @@
 <head>
     {% include common/meta.html %}
     <link href='{{ site.baseurl }}/assets/stylesheets/main.css' rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}">
     {% include common/libraries.html %}
     {% if site.google_tag_manager %}
         {% include common/gtm-head.html %}
     {% endif %}
+    <link rel="shortcut icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}">
 </head>
 
 <body>
