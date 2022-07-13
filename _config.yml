@@ -52,8 +52,8 @@ home:
   section1: <h1>Sophia H. N. Tran</h1> <hr size="2" width="100%" color="#A9A9A9"">
   section2: <h4> Cognitive Neuroscience PhD student at uWaterloo</h4><hr size="1" width="20%" color="#ECC5C0">
   section3: <h5> I am currently studying how drawing enhances later recall of &shy;to-be-remembered items, and how the drawing benefit can be modulated by stimulus-driven factors.</h5><hr size="1" width="100%" color="#A9A9A9">
+
 main:
-  <link rel="shortcut icon" href="/assets/images/favicon.ico">
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
   footer_content: Making More Memories
