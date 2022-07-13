@@ -24,7 +24,7 @@ sass:
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /main
 title: Sophia H. N. Tran
-description: "Cognitive Neuroscience PhD student at the University of Waterloo"
+description: ""
 keywords: 'memory, cognitive neuroscience, encoding techniques'
 author: 
   name: 'Sophia Tran'
