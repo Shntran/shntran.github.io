@@ -74,6 +74,12 @@ $size: 48;
         background-color: #f2d2f5;
     }
 
+    .ico-github {
+        @include get-ico-image(github);
+
+        background-color: #f2d2f5;
+    }
+
     .ico-vk {
         @include get-ico-image(vk);
 
