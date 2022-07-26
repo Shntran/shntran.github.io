@@ -1,0 +1,27 @@
+:root {}
+
+body{
+    margin: 0px;
+    padding: 30px;
+    overflow: hidden;
+    background: #fbf5f5;
+}
+
+canvas{
+    box-shadow: -3px 2px 9px 6px teal;
+    cursor:pointer;
+    background: white
+}
+
+.tools .button{
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    border: 2px solid pink;
+    cursor: pointer;
+    color: pink;
+    background: white;
+    font-weight: bold;
+    margin: 0 20px;
+
+}
