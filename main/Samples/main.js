@@ -1,5 +1,5 @@
 const canvas = document.getElementById("canvas");
-canvas.width = window.innerWidth -40%;
+canvas.width = 10000px;
 canvas.height = 40%;
 
 let context= canvas.getContext("2d")
