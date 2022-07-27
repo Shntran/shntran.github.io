@@ -1,5 +1,6 @@
 const canvas = document.getElementById("canvas");
-
+canvas.width = window.innerWidth - 60;
+canvas.height = 400;
 
 let context= canvas.getContext("2d")
 context.fillStyle = "white";
@@ -22,11 +23,6 @@ canvas.addEventListener("touchend", stop, false)
 canvas.addEventListener("mouseup", stop, false)
 canvas.addEventListener("mouseout", stop, false)
 
-window.addEventListener( 'resize', onWindowResize, false ); 
-function onWindowResize() {
-    windowX = window.innerWidth - 500;
-    windowY = window.innerHeight-500;
-}
 
 function start(event) {
     is_drawing = true;
