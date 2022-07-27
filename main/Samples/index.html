@@ -6,13 +6,42 @@ description: "This page shows a list of categories used in this main."
 group: navigation
 ---
 
-
 <div><h3><i>Some Samples</i></h3></div>
 
 <ul>Here is a <a href="https://uwaterloo.ca1.qualtrics.com/jfe/form/SV_enDlwohYddGjbKK" target="_blank"><i>drawing experiment</i></a> sample on qualtrics</ul>
   <center>
   <video width="50%" height="auto" muted autoplay loop> 
     <source src="/assets/images/movie.mp4" type="video/mp4"></video>
+  <center></center>
+
+
+
+  <!doctype html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Drawing</title>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+    </head>
+
+    <body>
+
+        <div class="field">
+            <canvas id="canvas"></canvas>
+            <div class="tools">
+                <button onClick="undo_last()" type="button" class="button">Undo</button>
+            </div>
+
+        </div>
+
+    </body>
+    <script src="main.js"></script>
+
+</html>
+
     
 <ul>Uploading soon....</ul>
     
