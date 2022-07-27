@@ -1,6 +1,5 @@
 const canvas = document.getElementById("canvas");
-canvas.width = window.innerWidth - 1000;
-canvas.height = 400;
+
 
 let context= canvas.getContext("2d")
 context.fillStyle = "white";
@@ -25,8 +24,8 @@ canvas.addEventListener("mouseout", stop, false)
 
 window.addEventListener( 'resize', onWindowResize, false ); 
 function onWindowResize() {
-    windowX = window.innerWidth;
-    windowY = window.innerHeight;
+    windowX = window.innerWidth - 500;
+    windowY = window.innerHeight-500;
 }
 
 function start(event) {
