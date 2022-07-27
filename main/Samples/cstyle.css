@@ -10,7 +10,7 @@ body{
 canvas{
     box-shadow: -3px 2px 9px 6px teal;
     cursor:pointer;
-    background: white;
+    background: white
 }
 
 .tools .button{
@@ -23,4 +23,5 @@ canvas{
     background: white;
     font-weight: bold;
     margin: 0 20px;
+
 }
