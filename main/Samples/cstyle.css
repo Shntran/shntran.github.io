@@ -11,8 +11,6 @@ canvas{
     box-shadow: -3px 2px 9px 6px teal;
     cursor:pointer;
     background: white;
-    margin: auto;
-    display: block;
 }
 
 .tools .button{
